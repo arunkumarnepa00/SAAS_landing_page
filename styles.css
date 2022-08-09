@@ -73,7 +73,7 @@ header{
         font-size: 40px;
     }
     .section1 img{
-        width:max-content;
+        width:80%;
     }
   }
 
@@ -197,4 +197,9 @@ header{
     background-color:#6600cc;
     color: #fff;
     border-radius:10px;
+}
+@media only screen and (max-width:900px) {
+    .section2>img{
+        width:80%;
+    }
 }
